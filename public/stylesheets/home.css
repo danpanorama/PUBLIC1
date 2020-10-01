@@ -1,0 +1,71 @@
+.heading {
+  height: 50vh;
+  background-color: #262626;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.video {
+  width: 100%;
+}
+.heading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.threestuf {
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.storeSec {
+  height: 30vh;
+  width: 100%;
+}
+.beautifulSectionOfGrid {
+  height: 70vh;
+  margin: 1em;
+}
+.foreSquar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  background-color: crimson;
+}
+
+.square {
+  height: 100%;
+  width: 25%;
+}
+.square1 {
+  height: 100%;
+  width: 25%;
+}
+.odd {
+  background-image: url(../img/img1.jpg);
+
+  background-attachment: fixed;
+}
+.odd1 {
+  background-image: url(../img/img2.jpg);
+
+  background-attachment: fixed;
+}
+.evena {
+  background-image: url(../img/img3.jpg);
+
+  background-attachment: fixed;
+}
+.evena1 {
+  background-image: url(../img/img4.jpg);
+
+  background-attachment: fixed;
+}

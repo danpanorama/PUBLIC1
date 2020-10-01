@@ -1,0 +1,44 @@
+/* .inputUnvisible {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  opacity: 0;
+  display: none;
+}
+.divOfItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionhaf {
+  width: 50%;
+}
+
+.stickys {
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  background-color: burlywood;
+}
+.itemsAditForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+
+.infoProfile {
+  padding: 1em 2em;
+} */
+
+/* .posisionAB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 4em;
+  font-weight: 700;
+  color: black;
+} */
